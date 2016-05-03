@@ -23,7 +23,7 @@ cp $drl.drl $drl.TXT
 
 zip -m $projdir.zip *.GB? *.GT? *.GM? *.TXT
 
-rm -rf dirtypcb
-mkdir dirtypcb
-cd dirtypcb
+rm -rf eagleformat
+mkdir eagleformat
+cd eagleformat
 unzip ../$projdir.zip
